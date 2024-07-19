@@ -10,9 +10,9 @@ The good news is that being a Maker has gotten quite a bit cheaper, and decent e
 
 While I didn't take pictures, in my parts drawers are protoboards and a variety of hookup wire. 
 
-<img src="proto_boards.jpg" width=400px>
+<img src="proto_boards.jpg" width=300px>
 
-<img src="proto_wire.jpg" width=400px>
+<img src="proto_wire.jpg" width=300px>
 
 If you're starting from AdaFruit, Raspberry Pi, ESP32, or Arduino, you won't need much more than a protoboard, wire, a USB cable, and some discrete components to get started.
 
@@ -28,13 +28,13 @@ It's a massive, heavy box full of vacuum tubes!! It supplies 0-115 V DC, which i
 
 I'd love to know the history of this.
 
-<img src="tube_dc_power.jpeg" width=400px>
+<img src="tube_dc_power.jpeg" width=600px>
 
 Let's move to more modern DC power supplies. The two power supplies below represent two vintages. The Mastech supply on the left is powered by a massive transformer and DC rectifier. As you turn the voltage knobs, different circuits switch in with an audible relay click. These circuits pull voltage from a different tap points on the transformer in order to give the desired voltage range. The supply is late 90s or early 2000s. It's a decent supply that can handle several amps. It's also a bit more advanced. You can limit the current supplied in order to test voltage drop out on circuits. And you can chain the two supplies together for double the current or double the voltage. I recently upgraded the voltage potentiometers on this supply to 10-turn pots. This makes it easier to dial in tenths of a volt.
 
 To the right is a generic, cheap switching power supply I bought a year ago from Amazon. It's a direct-from-China no frills supply. It's smaller, but it can supply up to 10 A of current if needed. Switching supplies are the standard design in electronics these days. This cheap supply is the one I use the most. You dial in the voltage you want and press the output button to turn it on. This is what you would get if you're just starting out.
 
-<img src="modern_dc_power.jpeg" width=400px>
+<img src="modern_dc_power.jpeg" width=600px>
 
 But wait...that small radio shack power supply you might have seen in the bigger photo is a 1980s-90s vintage supply for testing car power accessories (the plug formerly known as the "cigarette lighter".) Yes, I still use this.
 
@@ -48,7 +48,7 @@ Sometimes you need AC power to work on or test an AC device. My setup contains a
 
 To get the voltage I need, I turn on the isolation transformer and turn on the variac and then dial in whatever AC voltage is required for a project. For example, a doorbell camera runs on 18-24 V AC, so if I were working on that, I'd dial the Variac down to that voltage.
 
-<img src="ac_power.jpeg" width=400px>
+<img src="ac_power.jpeg" width=600px>
 
 **!! Important !!**
 
@@ -70,7 +70,7 @@ My collection is missing a few things here, but I'll document what I have.
 
 Thanks to Rigol, hobbyists with a modest budget can get a decent scope. This is the venerable DS1054Z upgraded to 100 MHz and with all software functions unlocked, the most useful of which is a protocol analyzer (although I usually use my logic analyzer for that these days).
 
-<img src="oscope.jpeg" width=400px>
+<img src="oscope.jpeg" width=600px>
 
 You may not need a scope right away in your maker projects, but eventually you'll want one. When you do, check out Rigol.
 
@@ -94,19 +94,19 @@ Not shown are the many different types of test leads that are useful for meters.
 
 Much like Rigol, we have Salae to thank for a relatively affordable logic analyzer. This device is a must if you use Serial, SPI, I2C, I2S, etc. bus communications in your projects. The Rigol scope can do some decoding, so that's a good backup, but nothing beats having this logic analyzer plugged into your laptop.
 
-<img src="logic_analyzer.jpeg" width=400px>
+<img src="logic_analyzer.jpeg" width=600px>
 
 ### Frequency Counter
 
 I haven't had much use for this, but it was giving to me. Frequency Counters are useful for things like PWM circuits, when you're trying to monitor the modulation. Again, you can do this with the Rigol scope, which has a lot of great built-in measurement capabilities. But a standalone frequency counter is nice, too. I'm guessing this one is circa 80s or 90s.
 
-<img src="frequency_counter.jpeg" width=400px>
+<img src="frequency_counter.jpeg" width=600px>
 
 ### Vector Network Analyzer
 
 I'm also a Ham radio operator (K1DGG). When you're working with antennas, a VNA is a must have for antenna tuning and SNR measurements. I have one similar to this from Seeed. These are shockingly affordable given what lab-grade VNAs cost.
 
-<img src="vna.jpg" width=400px>
+<img src="vna.jpg" width=600px>
 
 ### What's missing for signals and measurement?
 
@@ -122,19 +122,19 @@ Soldering is a precise process, and a good iron with a good tip makes all the di
 
 First up is the microscope. This is from a company called AmScope. They make nice, relatively affordable, lab-grade microscopes. When you need to work on tiny surface mount components, you will need this and the right soldering iron.
 
-<img src="microscope.jpeg" width=400px>
+<img src="microscope.jpeg" width=600px>
 
 This microscope has a camera, so you can view the image on your laptop screen. I don't like the camera that much, though. I can't get the color balance quite right, and the update rate is too slow for soldering. I will have to upgrade that at some point. When I'm soldering surface mount, I find it easier to look through the microscope anyway.
 
 And of course you need vices to hold things.
 
-<img src="vices.jpeg" width=400px>
+<img src="vices.jpeg" width=600px>
 
 But the big cost is this massive soldering setup. 6 channels of soldering goodness.
 
-<img src="soldering.jpeg" width=400px>
+<img src="soldering.jpeg" width=700px>
 
-<img src="irons.jpeg" width=400px>
+<img src="irons.jpeg" width=700px>
 
 Left to right, the irons are:
 
@@ -153,7 +153,7 @@ Finally, I have a custom made heat gun. It's similar to the Weller hot air penci
 
 I also have a smoke absorber that I use when I'm doing a lot of soldering. It's especially helpful when if fire up the solder bath, which stinks terribly.
 
-<img src="smoke_absorber.jpg" width=400px>
+<img src="smoke_absorber.jpg" width=300px>
 
 Lastly, as you can see from the picture, everything sits on a static mat from SCS. SCS is supposed to be industrial grade, but I haven't been super happy with it. The sensing pad in the top right of the bench photo doesn't connect well with the mat, and the alarm goes off sometimes. I ended up putting some tinfoil between the sensor and the mat to make a better connection. And the test tool used to verify the matt is working to specification is junk. It came new from Digikey both uncalibrated and wired incorrectly. I had to pay to ship it back to SCS to fix. So I can't recommend SCS for your static control needs.
 
@@ -171,15 +171,15 @@ I can't possibly show all of the tools, but one of my favorites is this custom w
 
 This electronics bench is part of a larger shop. There is organized parts storage in a few places.
 
-<img src="small_parts.jpeg" width=400px>
+<img src="small_parts.jpeg" width=500px>
 
-<img src="large_parts.jpeg" width=400px>
+<img src="large_parts.jpeg" width=500px>
 
 And several tools storage areas:
 
-<img src="storage.jpeg" width=400px>
+<img src="storage.jpeg" width=500px>
 
-<img src="tools.jpeg" width=400px>
+<img src="tools.jpeg" width=500px>
 
 ## Conclusion
 
