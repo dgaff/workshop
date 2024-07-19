@@ -30,7 +30,7 @@ I'd love to know the history of this.
 
 ![](tube_dc_power.jpeg)
 
-Let's move to more modern DC power supplies. The two power supplies below represent two vintages. The Mastech supply on the left is powered by a massive transformer and DC rectifier. As you turn the voltage knobs, different circuits switch in with an audible relay click. These circuits pull voltage from a different tap points on the transformer in order to give the desired voltage rage. The supply is late 90s or early 2000s. It's a decent supply that can handle several amps. It's also a bit more advanced. You can limit the current supplied in order to test voltage drop out on circuits. And you can chain the two supplies together for double the current or double the voltage. I recently upgraded the voltage potentiometers on this supply to 10-turn pots. This makes it easier to dial in tenths of a volt.
+Let's move to more modern DC power supplies. The two power supplies below represent two vintages. The Mastech supply on the left is powered by a massive transformer and DC rectifier. As you turn the voltage knobs, different circuits switch in with an audible relay click. These circuits pull voltage from a different tap points on the transformer in order to give the desired voltage range. The supply is late 90s or early 2000s. It's a decent supply that can handle several amps. It's also a bit more advanced. You can limit the current supplied in order to test voltage drop out on circuits. And you can chain the two supplies together for double the current or double the voltage. I recently upgraded the voltage potentiometers on this supply to 10-turn pots. This makes it easier to dial in tenths of a volt.
 
 To the right is a generic, cheap switching power supply I bought a year ago from Amazon. It's a direct-from-China no frills supply. It's smaller, but it can supply up to 10 A of current if needed. Switching supplies are the standard design in electronics these days. This cheap supply is the one I use the most. You dial in the voltage you want and press the output button to turn it on. This is what you would get if you're just starting out.
 
@@ -148,7 +148,7 @@ Left to right, the irons are:
 
 Do I use all of these irons? Yes. One some projects, I'll have four of them heating at the same time. The soldering station is the single most used item in my electronics shop. I also have a small solder bath (not shown) that plugs into the Weller base station. I haven't used that as much. It takes forever to heat up and cool down.
 
-Finally, I have a custom made heat gun. It's similar to the Weller hot air pencil, but with a bigger nozzle and less precise temperature control. I built this using the parts from a larger and very crappy solder station I bought from Amazon. (Don't do it!!) That station was junk, and it's what encouraged me to buy a Weller setup. But the heat gun worked pretty well, so I 3D printed a case and put the guts into that. I used it primarily to melt heat shrink tubing.
+Finally, I have a custom made heat gun. It's similar to the Weller hot air pencil, but with a bigger nozzle and less precise temperature control. I built this using the parts from a larger and very crappy solder station I bought from Amazon. (Don't do it!!) That station was junk, and it's what encouraged me to buy a Weller setup. But the heat gun worked pretty well, so I 3D printed a case and put the guts into that. I use it primarily to melt heat shrink tubing.
 
 ![](heat_gun.jpeg)
 
@@ -160,7 +160,7 @@ Lastly, as you can see from the picture, everything sits on a static mat from SC
 
 ## Construction
 
-Not shown in these pictures are items I used for construction in maker projects. I have a Prusa MK4 for 3D printer. It's a great printer, with only a few little quirks like most 3D printers have. If you're looking for a place to start on 3D printing, check out Prusa and Bamboo printers. Don't waste your money on the cheaper ones. You'll spend all your time making adjustments instead of printing.
+Not shown in these pictures are items I used for construction in maker projects. I have a Prusa MK4 as my 3D printer. It's a great printer, with only a few little quirks like most 3D printers have. If you're looking for a place to start on 3D printing, check out Prusa and Bamboo printers. Don't waste your money on the cheaper ones. You'll spend all your time making adjustments instead of printing.
 
 I also have a variety of wood working tools, and a few metal shop tools as well. In my dream shop, I'll have a full metal working setup--mill, lathe, desktop CNC, grinders, welding, etc. But I don't have either the space, money, or training for that stuff right now.
 
