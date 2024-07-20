@@ -145,7 +145,7 @@ Left to right, the irons are:
 5. Desoldering iron with vacuum.
 6. Hot air pencil for chip soldering/desoldering.
 
-Do I use all of these irons? Yes. One some projects, I'll have four of them heating at the same time. The soldering station is the single most used item in my electronics shop. I also have a small solder bath (not shown) that plugs into the Weller base station. I haven't used that as much. It takes forever to heat up and cool down.
+Do I use all of these irons? Yes. On some projects, I'll have four of them heating at the same time. The soldering station is the single most used item in my electronics shop. I also have a small solder bath (not shown) that plugs into the Weller base station. I haven't used that as much. It takes forever to heat up and cool down.
 
 Finally, I have a custom made heat gun. It's similar to the Weller hot air pencil, but with a bigger nozzle and less precise temperature control. I built this using the parts from a larger and very crappy solder station I bought from Amazon. (Don't do it!!) That station was junk, and it's what encouraged me to buy a Weller setup. But the heat gun worked pretty well, so I 3D printed a case and put the guts into that. I use it primarily to melt heat shrink tubing.
 
@@ -161,7 +161,7 @@ Lastly, as you can see from the picture, everything sits on a static mat from SC
 
 Not shown in these pictures are items I used for construction in maker projects. I have a Prusa MK4 as my 3D printer. It's a great printer, with only a few little quirks like most 3D printers have. If you're looking for a place to start on 3D printing, check out Prusa and Bamboo printers. Don't waste your money on the cheaper ones. You'll spend all your time making adjustments instead of printing.
 
-I also have a variety of wood working tools, and a few metal shop tools as well. In my dream shop, I'll have a full metal working setup--mill, lathe, desktop CNC, grinders, welding, etc. But I don't have either the space, money, or training for that stuff right now.
+I also have a variety of wood working tools, and a few metal shop tools as well. In my dream shop, I'll have a full metal working setup--mill, lathe, desktop CNC, grinders, welding, etc. But I don't have the space, money, or training for that stuff right now.
 
 ## Tools, Parts, and Storage
 
@@ -199,7 +199,7 @@ When you start getting into more complex circuits that aren't working and you ca
 6. Scope
 7. Logic Analyzer
 
-And finally, when you get setting into advanced work, you may find you need more advanced tools.
+And finally, when you get into advanced work, you may find you need more advanced tools.
 
 8. Specialty: advanced soldering, VNA, function generator, AC tools, etc.
 
