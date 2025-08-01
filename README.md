@@ -64,11 +64,9 @@ This is better explained with pictures, so here's an [excellent video](https://w
 
 ## Signals & Measurement
 
-My collection is missing a few things here, but I'll document what I have.
-
 ### Oscilloscope
 
-Thanks to Rigol, hobbyists with a modest budget can get a decent scope. This is the venerable DS1054Z upgraded to 100 MHz and with all software functions unlocked, the most useful of which is a protocol analyzer (although I usually use my logic analyzer for that these days).
+Thanks to Rigol, hobbyists with a modest budget can get a decent scope. This is the venerable DS1054Z upgraded to 100 MHz and with all software functions unlocked, the most useful of which is a protocol analyzer (although I usually use my logic analyzer for that).
 
 <img src="oscope.jpeg" width=600px>
 
@@ -76,17 +74,19 @@ You may not need a scope right away in your maker projects, but eventually you'l
 
 ### Digital Multimeters
 
-This is an area where I'd like to upgrade. I have a nice industrial Fluke DMM. It works great, and I have no complaints. But a bench top DMM would be better because it would allow logging and lower current measurements for battery-operated applications. I haven't sprung for one, because I want one that measures down into the single µA range.
+For work on the bench, I have a very nice Keysight 7.5 digital multimeter. This was a splurge, but it has a ton of great features--logging, histograms, network interface, and the ability to measure very low current (single µA range) for battery-operated projects that need to last a long time on a battery.
+
+<img src="bench_dmm.jpeg" width=400px>
+
+For work away from the bench, I have a nice industrial Fluke DMM. It works great, and I have no complaints, but an industrial DMM is overkill for the beginner hobbyist. Buy a cheaper Fluke like the Fluke 107 if you're getting started. You can safely buy a no-name Chinese DMM, too, but if you want one that lasts forever, buy a Fluke.
 
 <img src="dmm.jpeg" width=400px>
-
-An industrial DMM is overkill for the beginner hobbyist. Buy a cheaper Fluke like the Fluke 107 if you're getting started. You can safely buy a no-name Chinese DMM, too, but if you want one that lasts forever, buy a Fluke.
 
 While the Fluke 87V can measure capacitors, it's not great for smaller values. For more accurate capacitor readings, and to measure inductors, I have a cheap LCR meter.
 
 <img src="lcr_meter.jpg" width=400px>
 
-I don't do this often, so I didn't spring for a name-brand LCR meter.
+I don't measure inductors or capacitors often, so I didn't spring for a name-brand LCR meter.
 
 Not shown are the many different types of test leads that are useful for meters. My drawers are full of wires. Buy the needle nose test leads if you want to plug them directly into your protoboard for testing.
 
@@ -95,6 +95,12 @@ Not shown are the many different types of test leads that are useful for meters.
 Much like Rigol, we have Salae to thank for a relatively affordable logic analyzer. This device is a must if you use Serial, SPI, I2C, I2S, etc. bus communications in your projects. The Rigol scope can do some decoding, so that's a good backup, but nothing beats having this logic analyzer plugged into your laptop.
 
 <img src="logic_analyzer.jpeg" width=600px>
+
+### Function Generator
+
+Function generators are useful for testing amplifier circuits, filters, speakers, and other analog circuits. They're also good for simulating digital signals, testing PWM circuits, and injecting noise. For the beginner hobbyist, you won't need one of these for a while. There are probably cheaper ones out there, too.
+
+<img src="funcgen.jpeg" width=400px>
 
 ### Frequency Counter
 
@@ -107,12 +113,6 @@ I haven't had much use for this, but it was giving to me. Frequency Counters are
 I'm also a Ham radio operator (K1DGG). When you're working with antennas, a VNA is a must have for antenna tuning and SNR measurements. I have one similar to this from Seeed. These are shockingly affordable given what lab-grade VNAs cost.
 
 <img src="vna.jpg" width=600px>
-
-### What's missing for signals and measurement?
-
-There's no shortage of testing gear you can own. A notable absence on my bench is a **function generator**. I don't do a lot of analog work, either design or repair, so I haven't had a big need for a function generator. But I do hope to add one to my collection some day when I have a project need for it. 
-
-Like I mentioned above, I would also love to add a proper bench DMM at some point, too.
 
 ## Soldering
 
