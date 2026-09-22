@@ -6,8 +6,10 @@ There's a decent amount of equipment here which I've built up over 20 years. It'
 
 I'll review a bunch of stuff from the photos. Some of the older equipment didn't make it into the new lab for space reasons and because I don't use it anymore. But I'll still describe it. I wrote most of this up before I built the new shop, so the pictures are from the old shop setup.
 
+**New Electronics Workbench**
 ![new shop](newshop.jpeg)
 
+**Old Electronics Workbench**
 ![old shop](workshop.jpeg)
 
 ## Prototyping
