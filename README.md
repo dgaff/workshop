@@ -1,18 +1,22 @@
 # Doug's Electronics Workshop
 
-To be a Maker, you should have a good workbench setup. Here's a picture of the electronics portion of my workshop. There's a decent amount of equipment here which I've built up over 20 years. It's certainly missing some stuff, but it's a good representation of the tools needed for maker electronics work.
+To be a Maker, it's helpful to have a good workbench setup. Here's a picture of the electronics portion of my new workshop in my home office. The picture below that is the setup I had in my basement shop before I built my new home office. I wanted to move the electronics equipment to a more comfortable and climate controlled location.
 
-The good news is that being a Maker has gotten quite a bit cheaper, and decent equipment can be had for less money than building a professional lab. I'll run through the major components below. Again, some of my stuff is affordable and some isn't, but I'll try to talk about affordable options.
+There's a decent amount of equipment here which I've built up over 20 years. It's certainly missing some stuff, but it's a good representation of the tools needed for maker electronics work. The good news is that being a Maker has gotten quite a bit cheaper, and decent equipment can be had for less money than building a professional lab. I'll run through the major components below. Again, some of my stuff is affordable and some isn't, but I'll try to talk about affordable options.
 
-![](workshop.jpeg)
+I'll review a bunch of stuff from the photos. Some of the older equipment didn't make it into the new lab for space reasons and because I don't use it anymore. But I'll still describe it. I wrote most of this up before I built the new shop, so the pictures are from the old shop setup.
+
+![new shop](newshop.jpeg)
+
+![old shop](workshop.jpeg)
 
 ## Prototyping
 
-While I didn't take pictures, in my parts drawers are protoboards and a variety of hookup wire. 
+While I didn't take pictures, in my parts drawers are protoboards and a variety of hookup wire.
 
-<img src="proto_boards.jpg" width=300px>
+<img src="proto_boards.jpg" alt="proto boards" width=300px>
 
-<img src="proto_wire.jpg" width=300px>
+<img src="proto_wire.jpg" alt="proto wire" width=300px>
 
 If you're starting from AdaFruit, Raspberry Pi, ESP32, or Arduino, you won't need much more than a protoboard, wire, a USB cable, and some discrete components to get started.
 
@@ -28,27 +32,27 @@ It's a massive, heavy box full of vacuum tubes!! It supplies 0-115 V DC, which i
 
 I'd love to know the history of this.
 
-<img src="tube_dc_power.jpeg" width=600px>
+<img src="tube_dc_power.jpeg" alt="tube dc supply" width=600px>
 
 Let's move to more modern DC power supplies. The two power supplies below represent two vintages. The Mastech supply on the left is powered by a massive transformer and DC rectifier. As you turn the voltage knobs, different circuits switch in with an audible relay click. These circuits pull voltage from a different tap points on the transformer in order to give the desired voltage range. The supply is late 90s or early 2000s. It's a decent supply that can handle several amps. It's also a bit more advanced. You can limit the current supplied in order to test voltage drop out on circuits. And you can chain the two supplies together for double the current or double the voltage. I recently upgraded the voltage potentiometers on this supply to 10-turn pots. This makes it easier to dial in tenths of a volt.
 
 To the right is a generic, cheap switching power supply I bought a year ago from Amazon. It's a direct-from-China no frills supply. It's smaller, but it can supply up to 10 A of current if needed. Switching supplies are the standard design in electronics these days. This cheap supply is the one I use the most. You dial in the voltage you want and press the output button to turn it on. This is what you would get if you're just starting out.
 
-<img src="modern_dc_power.jpeg" width=600px>
+<img src="modern_dc_power.jpeg" alt="modern DC power supplies" width=600px>
 
 But wait...that small radio shack power supply you might have seen in the bigger photo is a 1980s-90s vintage supply for testing car power accessories (the plug formerly known as the "cigarette lighter".) Yes, I still use this.
 
-<img src="car_power.jpeg" width=400px>
+<img src="car_power.jpeg" alt="car power supply" width=400px>
 
 ### AC Power (and warnings!)
 
 **Please read this section carefully. Working with AC incorrectly can kill you.** DC can kill you too, but not typically the lower voltages we work with in hobby electronics.
 
-Sometimes you need AC power to work on or test an AC device. My setup contains a variable transformer (Variac) plugged into a ground-lifted isolation transformer. The isolation transformer is a 1:1 transformer than separates line AC from output AC. I've modified the isolation transformer so that the ground wire is also not connected between input and output. I'll explain this setup in more detail below. 
+Sometimes you need AC power to work on or test an AC device. My setup contains a variable transformer (Variac) plugged into a ground-lifted isolation transformer. The isolation transformer is a 1:1 transformer than separates line AC from output AC. I've modified the isolation transformer so that the ground wire is also not connected between input and output. I'll explain this setup in more detail below.
 
 To get the voltage I need, I turn on the isolation transformer and turn on the variac and then dial in whatever AC voltage is required for a project. For example, a doorbell camera runs on 18-24 V AC, so if I were working on that, I'd dial the Variac down to that voltage.
 
-<img src="ac_power.jpeg" width=600px>
+<img src="ac_power.jpeg" alt="AC power setup with isolation transformer and Variac" width=600px>
 
 **!! Important !!**
 
@@ -68,23 +72,27 @@ This is better explained with pictures, so here's an [excellent video](https://w
 
 Thanks to Rigol, hobbyists with a modest budget can get a decent scope. This is the venerable DS1054Z upgraded to 100 MHz and with all software functions unlocked, the most useful of which is a protocol analyzer (although I usually use my logic analyzer for that).
 
-<img src="oscope.jpeg" width=600px>
+<img src="oscope.jpeg" alt="Rigol oscilloscope" width=600px>
 
 You may not need a scope right away in your maker projects, but eventually you'll want one. When you do, check out Rigol.
+
+<img src="Siglent_SDS3000X.jpeg" alt="Siglent oscilloscope" width=600px>
+
+One of my big upgrades what to replace the Rigol with a Siglent SDS3054X HD 500MHz 4-channel scope. It was at the very top end of my budget, but it will more than cover any project I have. As a bonus, it has 16 digital channels, too, so you can overlay logic analyzer traces and analog signals. It's a beast, and I'm still learning all that it can do.
 
 ### Digital Multimeters
 
 For work on the bench, I have a very nice Keysight 7.5 digital multimeter. This was a splurge, but it has a ton of great features--logging, histograms, network interface, and the ability to measure very low current (single µA range) for battery-operated projects that need to last a long time on a battery.
 
-<img src="bench_dmm.jpeg" width=400px>
+<img src="bench_dmm.jpeg" alt="bench digital multimeter" width=400px>
 
 For work away from the bench, I have a nice industrial Fluke DMM. It works great, and I have no complaints, but an industrial DMM is overkill for the beginner hobbyist. Buy a cheaper Fluke like the Fluke 107 if you're getting started. You can safely buy a no-name Chinese DMM, too, but if you want one that lasts forever, buy a Fluke.
 
-<img src="dmm.jpeg" width=400px>
+<img src="dmm.jpeg" alt="handheld digital multimeter" width=400px>
 
 While the Fluke 87V can measure capacitors, it's not great for smaller values. For more accurate capacitor readings, and to measure inductors, I have a cheap LCR meter.
 
-<img src="lcr_meter.jpg" width=400px>
+<img src="lcr_meter.jpg" alt="LCR meter" width=400px>
 
 I don't measure inductors or capacitors often, so I didn't spring for a name-brand LCR meter.
 
@@ -94,25 +102,25 @@ Not shown are the many different types of test leads that are useful for meters.
 
 Much like Rigol, we have Salae to thank for a relatively affordable logic analyzer. This device is a must if you use Serial, SPI, I2C, I2S, etc. bus communications in your projects. The Rigol scope can do some decoding, so that's a good backup, but nothing beats having this logic analyzer plugged into your laptop.
 
-<img src="logic_analyzer.jpeg" width=600px>
+<img src="logic_analyzer.jpeg" alt="logic analyzer" width=600px>
 
 ### Function Generator
 
-Function generators are useful for testing amplifier circuits, filters, speakers, and other analog circuits. They're also good for simulating digital signals, testing PWM circuits, and injecting noise. For the beginner hobbyist, you won't need one of these for a while. There are probably cheaper ones out there, too.
+Function generators are useful for testing amplifier circuits, filters, speakers, and other analog circuits. They're also good for simulating digital signals, testing PWM circuits, and injecting noise. For the beginner hobbyist, you won't need one of these for a while. There are cheaper choices out there than the Keysight one I picked up. I bought it at the same time I bought my Keysight Bench DMM. But I'm not super happy with it. Too much money for too little frequency range.
 
-<img src="funcgen.jpeg" width=400px>
+<img src="funcgen.jpeg" alt="function generator" width=400px>
 
 ### Frequency Counter
 
-I haven't had much use for this, but it was giving to me. Frequency Counters are useful for things like PWM circuits, when you're trying to monitor the modulation. Again, you can do this with the Rigol scope, which has a lot of great built-in measurement capabilities. But a standalone frequency counter is nice, too. I'm guessing this one is circa 80s or 90s.
+I haven't had much use for this, but it was given to me. Frequency Counters are useful for things like PWM circuits, when you're trying to monitor the modulation. Again, you can do this with the oscilloscope, which has a lot of great built-in measurement capabilities. But a standalone frequency counter is nice, too. I'm guessing this one is circa 80s or 90s.
 
-<img src="frequency_counter.jpeg" width=600px>
+<img src="frequency_counter.jpeg" alt="frequency counter" width=600px>
 
 ### Vector Network Analyzer
 
 I'm also a Ham radio operator (K1DGG). When you're working with antennas, a VNA is a must have for antenna tuning and SNR measurements. I have one similar to this from Seeed. These are shockingly affordable given what lab-grade VNAs cost.
 
-<img src="vna.jpg" width=600px>
+<img src="vna.jpg" alt="vector network analyzer" width=600px>
 
 ## Soldering
 
@@ -122,19 +130,19 @@ Soldering is a precise process, and a good iron with a good tip makes all the di
 
 First up is the microscope. This is from a company called AmScope. They make nice, relatively affordable, lab-grade microscopes. When you need to work on tiny surface mount components, you will need this and the right soldering iron.
 
-<img src="microscope.jpeg" width=600px>
+<img src="microscope.jpeg" alt="electronics microscope" width=600px>
 
 This microscope has a camera, so you can view the image on your laptop screen. I don't like the camera that much, though. I can't get the color balance quite right, and the update rate is too slow for soldering. I will have to upgrade that at some point. When I'm soldering surface mount, I find it easier to look through the microscope anyway.
 
 And of course you need vices to hold things.
 
-<img src="vices.jpeg" width=600px>
+<img src="vices.jpeg" alt="bench vices" width=600px>
 
 But the big cost is this massive soldering setup. 6 channels of soldering goodness.
 
-<img src="soldering.jpeg" width=700px>
+<img src="soldering.jpeg" alt="soldering station" width=700px>
 
-<img src="irons.jpeg" width=700px>
+<img src="irons.jpeg" alt="collection of soldering irons" width=700px>
 
 Left to right, the irons are:
 
@@ -149,11 +157,11 @@ Do I use all of these irons? Yes. On some projects, I'll have four of them heati
 
 Finally, I have a custom made heat gun. It's similar to the Weller hot air pencil, but with a bigger nozzle and less precise temperature control. I built this using the parts from a larger and very crappy solder station I bought from Amazon. (Don't do it!!) That station was junk, and it's what encouraged me to buy a Weller setup. But the heat gun worked pretty well, so I 3D printed a case and put the guts into that. I use it primarily to melt heat shrink tubing.
 
-<img src="heat_gun.jpeg" width=400px>
+<img src="heat_gun.jpeg" alt="custom heat gun" width=400px>
 
 I also have a smoke absorber that I use when I'm doing a lot of soldering. It's especially helpful when if fire up the solder bath, which stinks terribly.
 
-<img src="smoke_absorber.jpg" width=300px>
+<img src="smoke_absorber.jpg" alt="soldering smoke absorber" width=300px>
 
 Lastly, as you can see from the picture, everything sits on a static mat from SCS. SCS is supposed to be industrial grade, but I haven't been super happy with it. The sensing pad in the top right of the bench photo doesn't connect well with the mat, and the alarm goes off sometimes. I ended up putting some tinfoil between the sensor and the mat to make a better connection. And the test tool used to verify the matt is working to specification is junk. It came new from Digikey both uncalibrated and wired incorrectly. I had to pay to ship it back to SCS to fix. So I can't recommend SCS for your static control needs.
 
@@ -165,21 +173,21 @@ I also have a variety of wood working tools, and a few metal shop tools as well.
 
 ## Tools, Parts, and Storage
 
-I can't possibly show all of the tools, but one of my favorites is this custom wooden holder I made for a set of Wiha screw/allen/torx/nut drivers. Wiha is the best. If you're going to be assembling and disassemblying a lot of small things, just buy Wiha and skip the cheap stuff on Amazon.
+I can't possibly show all of the tools, but one of my favorites is this custom wooden holder I made for a set of Wiha screw/allen/torx/nut drivers. Wiha is the best. If you're going to be assembling and disassembling a lot of small things, just buy Wiha and skip the cheap stuff on Amazon.
 
-<img src="small_tools.jpeg" width=400px>
+<img src="small_tools.jpeg" alt="wooden holder for small tools" width=400px>
 
 This electronics bench is part of a larger shop. There is organized parts storage in a few places.
 
-<img src="small_parts.jpeg" width=500px>
+<img src="small_parts.jpeg" alt="small parts storage" width=500px>
 
-<img src="large_parts.jpeg" width=500px>
+<img src="large_parts.jpeg" alt="large parts storage" width=500px>
 
 And several tools storage areas:
 
-<img src="storage.jpeg" width=500px>
+<img src="storage.jpeg" alt="workshop storage" width=500px>
 
-<img src="tools.jpeg" width=500px>
+<img src="tools.jpeg" alt="workshop tools" width=500px>
 
 ## Conclusion
 
